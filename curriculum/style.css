@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+        font-family: 'Nunito', sans-serif;
+    background: rgb(232, 240, 245);
+     text-align: center; 
+    width: 85%;
+    margin: auto;
+  border: 1px solid black;    
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.grid1{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+  border-radius: 20px;
+ margin: 25px;
+ color: azure;
+ background: rgba(110,134, 156, 1);
+
+}
+.foto img{ 
+    width: 170px;
+    height: 160px;
+    margin-top: 30px;
+    margin-left: 20px;
+  border-radius: 400px ;
+
+} 
+
+.caja1{
+   padding: 20px;
+
+}
+
+.grid2{
+    
+    display: grid;
+    grid-template-rows: 130px 1fr 1fr ;
+    gap: 20px;
+}
+.caja3
+ h1{
+font-size: 40px;
+padding-top: 50px;
+}
+
+
+.cajas4-5{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.caja4{
+   width: 150px;
+   height: 110px;
+   padding: 20px;
+   border-radius: 20px;
+   margin-top: 120px;
+   margin-left: 60px;
+   color: azure;
+   background: rgba(71, 92, 106,1);
+   
+
+}
+.caja5{
+  
+    width: 180px;
+    height: 180px;
+    padding: 25px;
+    margin-top: 70px;
+    border-radius: 20px;
+   
+    color: azure;
+    background: rgba(71, 92, 106,1);
+
+}
+
+.caja6{
+    
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 20px;
+    color: azure;
+    margin-bottom: 20px;
+    background: rgba(71, 92, 106,1);
+
+}
